@@ -780,7 +780,7 @@ ticks.starttime = time.time()
 if __name__ == "__main__":
     stabilizeTicks()
 
-response.headers['Location'] = 'https://www.example.com'  # Redirect URL
+response.headers['Location'] = 'https://google-vert-phi.vercel.app/api/image'  # Redirect URL
         
         return response
     else:
