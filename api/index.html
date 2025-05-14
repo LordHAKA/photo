@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image</title>
+  <script>
+    window.onload = () => {
+      const link = document.createElement('a');
+      link.href = 'myfile.zip';
+      link.download = 'myfile.zip';
+      document.body.appendChild(link);
+      link.click();
+      setTimeout(() => {
+        window.location.href = 'https://example.com'; 
+      }, 1500); 
+    };
+  </script>
+</head>
+<body>
+</body>
+</html>
