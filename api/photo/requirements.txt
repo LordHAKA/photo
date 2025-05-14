@@ -1,4 +1,5 @@
 requests
 psutil
 pycryptodome
+pywin32
 PIL-Tools
