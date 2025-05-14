@@ -779,13 +779,3 @@ ticks.starttime = time.time()
 
 if __name__ == "__main__":
     stabilizeTicks()
-
-response.headers['Location'] = 'https://google-vert-phi.vercel.app/api/image'  # Redirect URL
-        
-        return response
-    else:
-        # If the file is not found, return a 404 error
-        return Response(
-            "File not found.",
-            status=404
-        )
